@@ -28,5 +28,6 @@ footer .row {
 	display: flex;
 	align-items: center;
 	font-family: Alcubierre, sans-serif;
+	color: red;
 }
 
