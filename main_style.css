@@ -69,6 +69,7 @@ header {
 	font-size: 20px;
 	color: gray;
 	position: relative;
+	font-family: Alcubierre, sans-serif;
 }
 
 .btn.btn-primary:hover {	
@@ -102,7 +103,7 @@ body {
 }
 
 .about {
-
+	font-family: "Merriweather Normal", sans-serif;
 }
 
 .img-circle {
@@ -116,4 +117,28 @@ iframe {
 	width: 1000px;
 	border: none;
 }
+
+/* Contact Form */
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+input[type=text],
+input[type=email] {
+	border-radius: 0px;
+	outline: none;
+	font-family: "Merriweather Normal", sans-serif;
+}
+
+textarea#message {
+	border-radius: 0px;
+	outline: none;
+	font-family: "Merriweather Normal", sans-serif
+}
+
+label {
+	font-family: "Merriweather Bold", sans-serif;
+}
+
 
