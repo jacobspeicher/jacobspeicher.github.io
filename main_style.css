@@ -1,6 +1,12 @@
 @font-face {
 	font-family: 'Alcubierre';
 	src: url('Alcubierre.otf');
+	font-family: 'Merriweather Bold';
+	src: url("Merriweather Bold.ttf");
+	font-family: 'Merriweather Normal';
+	src: url("Merriweather Regular.ttf");
+	font-family: 'Merriweather Italic';
+	src: url("Merriweather Italic.ttf");
 }
 
 /* Header and Footer */
@@ -28,6 +34,7 @@ header .row {
 	align-items: center;
 	display: block;
 	font-family: Alcubierre, sans-serif;
+	color: gray;
 }
 footer .row {
 	width: 100%;
@@ -42,6 +49,16 @@ header {
 	margin: 20px;
 }
 
+.title_link {
+	text-decoration: none;
+	color: gray;
+}
+
+.title_link:hover {
+	text-decoration: none;
+	color: black;
+}
+
 /* Nav */
 .btn.btn-primary {
 	background-color: white;
@@ -49,8 +66,8 @@ header {
 	border-width: 0px;
 	border-bottom-width: 5px;
 	border-color: white;
-	color: black;
 	font-size: 20px;
+	color: gray;
 	position: relative;
 }
 
@@ -72,6 +89,12 @@ header {
 	color: black;
 }
 
+.btn.btn-primary:active:focus {
+	border-color: black;
+	background-color: white;
+	color: black;
+}
+
 /* Body */
 body {
 	text-align: center;
@@ -82,9 +105,16 @@ body {
 
 }
 
-.img-circle{
+.img-circle {
 	border-radius: 50%;
 	height: 300px;
 	width: 300px;
+}
+
+iframe {
+	height: 1250px;
+	width: 1000px;
+	border: none;
+	align-items: center;
 }
 
