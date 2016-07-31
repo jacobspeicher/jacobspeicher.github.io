@@ -9,12 +9,24 @@ body {
 	font-family: Alcubierre, sans-serif;
 }
 
-h1 {
+header h1 {
 	font-size: 50px;
 }
 
-nav {
-	font-size: 20px;
-	display: inline;
+header nav {
+	font-size: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header p {
+	padding: 0 20px;
+	margin: 0;
+}
+
+header .row,
+footer .row {
+	display: flex;
+	align-items: center;
 }
 
