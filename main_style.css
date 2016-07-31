@@ -10,7 +10,6 @@ body {
 
 header h1 {
 	font-size: 50px;
-	font-family: Alcubierre, sans-serif;
 }
 
 header nav {
@@ -28,5 +27,6 @@ header .row,
 footer .row {
 	display: flex;
 	align-items: center;
+	font-family: Alcubierre, sans-serif;
 }
 
