@@ -29,10 +29,11 @@ footer p {
 
 header .row,
 footer .row {
+	width: 100%;
 	display: flex;
 	align-items: center;
 	font-family: Alcubierre, sans-serif;
 	background-color: red;
-	font-color: white;
+	color: white;
 }
 
