@@ -23,11 +23,16 @@ header p {
 	margin: 0;
 }
 
+footer p {
+	font-size: 20px;
+}
+
 header .row,
 footer .row {
 	display: flex;
 	align-items: center;
 	font-family: Alcubierre, sans-serif;
 	background-color: red;
+	font-color: white;
 }
 
