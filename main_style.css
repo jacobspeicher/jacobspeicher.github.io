@@ -30,16 +30,14 @@ footer p {
 }
 
 header .row {
-	width: 100%;
 	align-items: center;
 	display: block;
 	font-family: Alcubierre, sans-serif;
 	color: gray;
 }
 footer .row {
-	width: 100%;
 	align-items: center;
-	display: flex;
+	display: block;
 	font-family: Alcubierre, sans-serif;
 }
 
@@ -102,8 +100,9 @@ body {
 	background-color: #FEFEFA;
 }
 
-.about {
+section.about {
 	font-family: "Merriweather Normal", sans-serif;
+	text-align: center;
 }
 
 .img-circle {
@@ -116,6 +115,11 @@ iframe {
 	height: 1300px;
 	width: 1000px;
 	border: none;
+}
+
+section h3 {
+	font-family: Alcubierre, sans-serif;
+	text-align: center;
 }
 
 /* Contact Form */
