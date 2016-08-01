@@ -59,11 +59,11 @@ header {
 
 /* Nav */
 .btn.btn-primary {
-	background-color: white;
+	background-color: #FAEBD7;
 	border-radius: 0px;
 	border-width: 0px;
 	border-bottom-width: 5px;
-	border-color: white;
+	border-color: #FAEBD7;
 	font-size: 20px;
 	color: gray;
 	position: relative;
@@ -72,32 +72,32 @@ header {
 
 .btn.btn-primary:hover {	
 	border-color: gray;
-	background-color: white;
+	background-color: #FAEBD7;
 	color: black;
 }
 
 .btn.btn-primary:focus {
-	border-color: white;
-	background-color: white;
+	border-color: #FAEBD7;
+	background-color: #FAEBD7;
 	color: black;
 }
 
 .btn.btn-primary:active {
 	border-color: black;
-	background-color: white;
+	background-color: #FAEBD7;
 	color: black;
 }
 
 .btn.btn-primary:active:focus {
 	border-color: black;
-	background-color: white;
+	background-color: #FFFFF0;
 	color: black;
 }
 
 /* Body */
-body {
+.body-color {
 	text-align: center;
-	background-color: #FEFEFA;
+	background-color: #FAEBD7;
 }
 
 .about {
@@ -122,21 +122,35 @@ section h3 {
 	text-align: center;
 }
 
+
+/* Tiles */
+figure#empty {
+	margin-right: 55px;
+}
+
 figure#website,
 figure#tours {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px;
 	color: gray;
 	font-size: 17px;
+	background-color: #FFFFF0;
+	padding: 10px;
+	box-shadow: 4px 4px 0px #888888;
 }
 
 figure#website:hover,
 figure#tours:hover {
 	color: black;
+	box-shadow: 2px 2px 2px #888888;
 }
 
 .tile {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.tile-img {
+	height: 140px;
+	width: 140px;
 }
 
 /* Contact Form */
