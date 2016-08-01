@@ -101,7 +101,7 @@ body {
 }
 
 section.about {
-	font-family: "Merriweather Normal", sans-serif;
+	font-family: "Lucida Sans Unicode", sans-serif;
 	text-align: center;
 }
 
@@ -122,6 +122,16 @@ section h3 {
 	text-align: center;
 }
 
+#projects {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border: 2px black;
+}
+
+.tile {
+	font-family: "Lucida Sans Unicode", sans-serif;
+}
+
 /* Contact Form */
 form {
 	display: block;
@@ -132,17 +142,17 @@ input[type=text],
 input[type=email] {
 	border-radius: 0px;
 	outline: none;
-	font-family: "Merriweather Normal", sans-serif;
+	font-family: "Lucida Sans Unicode", sans-serif;
 }
 
 textarea#message {
 	border-radius: 0px;
 	outline: none;
-	font-family: "Merriweather Normal", sans-serif
+	font-family: "Lucida Sans Unicode", sans-serif
 }
 
 label {
-	font-family: "Merriweather Bold", sans-serif;
+	font-family: "Lucida Sans Unicode", sans-serif;
 }
 
 
