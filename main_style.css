@@ -140,13 +140,13 @@ figure#tours {
 	font-size: 17px;
 	background-color: #FFFFF0;
 	padding: 10px;
-	box-shadow: 4px 4px 2px #888888;
+	box-shadow: 4px 4px 0px #888888;
 }
 
 figure#website:hover,
 figure#tours:hover {
 	color: black;
-	box-shadow: 2px 2px 2px #888888;
+	box-shadow: 2px 2px 0px #888888;
 }
 
 .tile {
