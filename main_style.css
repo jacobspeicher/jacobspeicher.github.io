@@ -125,7 +125,7 @@ section h3 {
 
 /* Tiles */
 figure#empty {
-	margin-right: 55px;
+	margin-right: 75px;
 }
 
 @keyframes tile-push {
@@ -133,9 +133,18 @@ figure#empty {
 	to {box-shadow: 2px 2px 0px #888888;}
 }
 
+figure#website {
+	margin-right: 20px;
+}
+
+figure#tours {
+	margin-left: 20px;
+}
+
 figure#website,
 figure#tours {
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	color: gray;
 	font-size: 17px;
 	background-color: #FFFFF0;
