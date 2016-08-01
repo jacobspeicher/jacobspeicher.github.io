@@ -124,21 +124,16 @@ section h3 {
 
 
 /* Tiles */
-figure#empty {
-	margin-right: 75px;
-}
-
-@keyframes tile-push {
-	from {box-shadow: 4px 4px 0px #888888;}
-	to {box-shadow: 2px 2px 0px #888888;}
+section#empty {
+	margin-right: 40px;
 }
 
 figure#website {
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 }
 
 figure#tours {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 
 figure#website,
@@ -150,6 +145,9 @@ figure#tours {
 	background-color: #FFFFF0;
 	padding: 10px;
 	box-shadow: 4px 4px 0px #888888;
+	height: 200px;
+	width: 200px;
+	float: center;
 }
 
 figure#website:hover,
