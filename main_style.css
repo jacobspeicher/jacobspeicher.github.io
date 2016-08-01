@@ -100,8 +100,8 @@ body {
 	background-color: #FEFEFA;
 }
 
-section.about {
-	font-family: "Lucida Sans Unicode", sans-serif;
+.about {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: center;
 }
 
@@ -129,7 +129,7 @@ section h3 {
 }
 
 .tile {
-	font-family: "Lucida Sans Unicode", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /* Contact Form */
@@ -142,17 +142,17 @@ input[type=text],
 input[type=email] {
 	border-radius: 0px;
 	outline: none;
-	font-family: "Lucida Sans Unicode", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 textarea#message {
 	border-radius: 0px;
 	outline: none;
-	font-family: "Lucida Sans Unicode", sans-serif
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 label {
-	font-family: "Lucida Sans Unicode", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 
