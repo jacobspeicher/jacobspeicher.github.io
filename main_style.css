@@ -122,10 +122,17 @@ section h3 {
 	text-align: center;
 }
 
-#projects {
-	margin-top: 50px;
+figure#website,
+figure#tours {
+	margin-top: 20px;
 	margin-bottom: 20px;
-	border: 2px black;
+	color: gray;
+	font-size: 17px;
+}
+
+figure#website:hover,
+figure#tours:hover {
+	color: black;
 }
 
 .tile {
