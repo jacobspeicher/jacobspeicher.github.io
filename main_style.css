@@ -160,7 +160,8 @@ form {
 }
 
 input[type=text],
-input[type=email] {
+input[type=email],
+input[type=tel] {
 	border-radius: 0px;
 	outline: none;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
