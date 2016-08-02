@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Hello World!
 date: 2016-08-01
 ---
