@@ -5,6 +5,6 @@ title: Jacob Speicher - Blog
 
 <ul class="posts">
 	{% for post in site.posts %}
-	<li><span>{{ post.date | date_to_string }} » <a class="blog-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span></li>
+	<li><span> <a class="blog-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> - {{ post.date | date_to_string }} </span></li>
 	{% endfor %}
 </ul>
