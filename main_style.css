@@ -209,4 +209,15 @@ label {
 	text-align: left;
 }
 
+.blog-link {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+.blog-link:hover {
+	color: black;
+}
+
 
