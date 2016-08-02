@@ -192,20 +192,20 @@ label {
 /* Blog */
 
 .blog-post {
-	font-family: "Lucida Grande", sans-serif;
-	font-size: 40px;
+	font-family: "Alcubierre", sans-serif;
+	font-size: 50px;
 	text-align: center;
 }
 
 .meta {
 	font-family: "Lucida Grande", sans-serif;
-	font-size: 10px;
+	font-size: 15px;
 	text-align: center;
 }
 
 .post {
 	font-family: "Lucida Grande", sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: left;
 }
 
