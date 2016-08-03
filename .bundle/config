@@ -1,0 +1,3 @@
+---
+BUNDLE_WITHOUT: nokogiri:1.6.8
+BUNDLE_WITH: github-pages
