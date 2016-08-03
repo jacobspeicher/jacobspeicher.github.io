@@ -217,6 +217,7 @@ label {
 }
 
 .blog-link:hover {
+	text-decoration: none;
 	color: black;
 }
 
