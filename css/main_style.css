@@ -191,7 +191,7 @@ label {
 
 /* Blog */
 
-.blog-post {
+.blog-title {
 	font-family: "Alcubierre", sans-serif;
 	font-size: 50px;
 	text-align: center;
@@ -209,6 +209,10 @@ label {
 	text-align: left;
 }
 
+.blog-post {
+	justify-content: left;
+}
+
 .blog-link {
 	font-family: "Lucida Grande", sans-serif;
 	font-size: 20px;
@@ -224,5 +228,44 @@ label {
 .posts {
 	text-align: center;
 	list-style-type: none;
+}
+
+/* Project Pages */
+.project-title {
+	font-family: "Alcubierre", sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.project-description {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 15px;
+	text-align: left;
+}
+
+.general-link {
+	color: gray;
+	text-decoration: underline;
+}
+
+.general-link:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.general-link:active {
+	color: black;
+	text-decoration: none;
+}
+
+.list {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 15px;
+}
+
+.item {
+	font-family: "Lucida Grande", sans-serif;
+	text-align: left;
+	font-size: 15px;
 }
 
