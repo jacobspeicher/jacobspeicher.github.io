@@ -112,9 +112,10 @@ header {
 }
 
 iframe {
-	height: 1300px;
-	width: 1000px;
+	height: 1200px;
+	width: 59%;
 	border: none;
+	background-color: #FAEBD7;
 }
 
 section h3 {
