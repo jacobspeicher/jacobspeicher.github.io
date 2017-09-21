@@ -1,0 +1,30 @@
+---
+layout: default
+title: Projects - RPI Tours
+---
+
+<section class="container">
+	<div class="row">
+		<h1 class="project-title">
+			TetrisAI
+		</h1>
+	</div>
+</section>
+
+<section class="container">
+	<div class="row">
+		<div class="col-sm-3"></div>
+
+		<div class="col-sm-6">
+			<p class="project-description">
+        This project wasn't created by me, it was created by the CogWorks lab and their graduate students, the link to the projects GitHub repo is <a href="http://github.com/CogWorks/Tetris-AI">here</a>. I have been working on this project for a bit now, taking a break over the summer of 2017 however because of being out of state and out of easy communication with the rest of the lab.
+			</p>
+      <p class="project-description">
+        The AI models themselves are cross-entropy reinforcement models, that take feature sets of such variables as number of pits on the board, number of wells on the board, height of the pieces, etc, and use them to optimize objectives like getting the highest score, clearing the most lines, etc. All things that humans also set as goals and features of the game that humans use to acheive those goals. The point of these models is to try and understand how humans concentrate on and make decisions in the game of Tetris.
+      </p>
+      <p class="project-description">
+        I have been working on implementing a two-piece look-ahead feature to the models. This would allow them to choose the best spot to place the current zoid based not only on the highest current available score based on the features its placement satisfies, but the one that is currently also a satisfactory move, and will allow the next piece to be placed in a greater value spot than it otherwise might have been. Once things like overhangs (allowing pieces to be slid under overhanging bits of other pieces) are also implemented it could have a very real impact on how the model performs. It may have a very real impact even without overhangs, time will tell. 
+      </p>
+		</div>
+	</div>
+</section>

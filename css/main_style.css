@@ -126,7 +126,7 @@ section h3 {
 
 /* Tiles */
 section#empty {
-	margin-right: 40px;
+/*	margin-right: 40px; */
 }
 
 figure#website {
@@ -138,7 +138,8 @@ figure#tours {
 }
 
 figure#website,
-figure#tours {
+figure#tours,
+figure#tetris{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: gray;
@@ -152,7 +153,8 @@ figure#tours {
 }
 
 figure#website:hover,
-figure#tours:hover {
+figure#tours:hover,
+figure#tetris:hover {
 	color: black;
 	box-shadow: 2px 2px 0px #888888;
 }
